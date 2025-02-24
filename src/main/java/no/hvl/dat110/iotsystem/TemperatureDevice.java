@@ -34,6 +34,7 @@ public class TemperatureDevice {
 
 		// - publish the temperature(s)
 		// - disconnect from the broker
+		client.disconnect();
 
 		// TODO - end
 
